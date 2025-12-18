@@ -126,8 +126,6 @@ function Home() {
 
       {/* Sekcja dolna (30%) */}
  <div className="flex-[0.2] w-full flex flex-wrap bg-yellow-500 justify-center items-center gap-4 md:gap-10 pt-6 md:pt-2 lg:pt-0 pb-6">
-
-
         {technologyItems.map((item) => (
           <img
             key={item.image}
