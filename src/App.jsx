@@ -15,7 +15,7 @@ function App() {
     <div className='overflow-hidden'>
       <Header />
     <Routes>
-         <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/offer" element={<Offer />} />
         <Route path="/about" element={<About />} />
         <Route path="/technologies" element={<Technologies />} />
